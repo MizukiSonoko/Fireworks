@@ -44,15 +44,16 @@ $ brew install hanabi
 ```bash
 $ git clone https://github.com/MizukiSonoko/Hanabi
 $ cd Hanabi
-$ ./configure
+$ mkdir build
+$ cd build
+$ cmake ..
 $ make
-$ sudo make install
 ```
 
 ## Usage
 
 ```bash
-$ hanabi
+$ ./bin/hanabi
 ```
 
 ## Options
